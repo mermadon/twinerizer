@@ -14,7 +14,7 @@ jobs:
           go-version: '1.16.1' # The Go version to download (if necessary) and use.
 
       - name: build game
-        run: tweego main.twee -o dist/index.html
+        run: ./tweego main.twee -o dist/index.html
 
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
