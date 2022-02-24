@@ -7,11 +7,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    
-      - name: Use Go 1.14.0
-        uses: actions/setup-go@v1
-        with:
-          go-version: '1.14.0'
+      — uses: actions/checkout@v1
 
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
