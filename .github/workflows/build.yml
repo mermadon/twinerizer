@@ -7,7 +7,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      — uses: actions/checkout@v1
+    
       - name: Use Go 1.14.0
         uses: actions/setup-go@v1
         with:
